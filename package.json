@@ -1,0 +1,23 @@
+{
+  "name": "pgconnect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickoless/pgconnect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickoless/pgconnect/issues"
+  },
+  "homepage": "https://github.com/nickoless/pgconnect#readme",
+  "dependencies": {
+    "knex": "^0.14.2",
+    "pg": "^7.4.1"
+  }
+}
