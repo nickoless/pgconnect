@@ -1,8 +1,6 @@
 const settings = require("./settings"); // settings.json
 
 const query = `${process.argv[2]}`
-console.log(query)
-
 const knex = require('knex')({
   client: 'pg',
   connection: {
