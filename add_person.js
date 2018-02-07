@@ -14,12 +14,12 @@ const knex = require('knex')({
   }
 });
 
-// knex('famous_people')
-// .returning('id', 'first_name')
-// .insert({first_name: 'Mickey', last_name: 'Mouse', birthdate: '1950-12-12'}).asCallback(function(err, rows){
-//   if (err) return console.error(err);
-//   console.log(rows)
-// });
+knex('famous_people')
+.returning('id', 'first_name')
+.insert({first_name: 'Mickey', last_name: 'Mouse', birthdate: '1950-12-12'}).asCallback(function(err, rows){
+  if (err) return console.error(err);
+  console.log(rows)
+});
 
 
 // knex SQL query
